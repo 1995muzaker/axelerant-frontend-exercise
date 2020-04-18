@@ -1,6 +1,6 @@
 import React from "react";
 import TestimonialSwiper from "../../molecules/testimonial-swiper";
-import "./Testimonial.scss";
+import "./testimonial.scss";
 
 const Testimonial = () => {
   return (

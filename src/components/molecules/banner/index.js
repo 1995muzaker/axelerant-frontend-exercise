@@ -4,11 +4,11 @@ import IconTwo from "../../../assets/icon2.png";
 import IconThree from "../../../assets/icon3.png";
 import BackgroundImage from "../../../assets/banner.png";
 import IntroContent from "../../atoms/intro-content";
-import "./Banner.scss";
+import "./banner.scss";
 
 const backgrounStyle = {
   width: "100%",
-  height: "100%",
+  height: "100vh",
   backgroundImage: `url(${BackgroundImage})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import TestimonialCard from "../../atoms/testimonials";
+import TestimonialCard from "../../atoms/testimonialcard";
 
 class TestimonialSwiper extends Component {
   render() {

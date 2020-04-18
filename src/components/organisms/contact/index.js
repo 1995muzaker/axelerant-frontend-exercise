@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "../../molecules/contact-form";
 import ContactImage from "../../../assets/footer-bg.png";
-import "./ContactSection.scss";
+import "./contact.scss";
 
 const contactBg = {
   width: "100%",

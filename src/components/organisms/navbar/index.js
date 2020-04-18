@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import Logo from "../../../assets/logo.png";
 import { IoMdMenu } from "react-icons/io";
-import "./Navbar.scss";
+import { GoComment } from "react-icons/go";
+import "./navbar.scss";
 
 class NavBar extends Component {
   state = {
@@ -33,14 +34,20 @@ class NavBar extends Component {
             <IoMdMenu />
           </p>
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
-            <li>About</li>
+            <li className="active">About</li>
             <li>Services</li>
             <li>Solutions</li>
             <li>Blog</li>
-            <li>
-              <button>Get in touch</button>
+            <li className={`${isExpanded ? "message" : ""}`}>
+              <button><GoComment /> &nbsp;&nbsp;Get in touch</button>
             </li>
           </ul>
+          <p
+            className="fa-contact"
+            aria-hidden="true"
+          >
+            <GoComment />
+          </p>
         </nav>
       </header>
     );

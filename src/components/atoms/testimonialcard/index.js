@@ -1,5 +1,5 @@
 import React from "react";
-import "./testimonial.scss";
+import "./testimonialcard.scss";
 import Quote from "../../../assets/quote-img.png";
 import Client from "../../../assets/profile-img.png";
 
@@ -8,7 +8,7 @@ const TestimonialCard = ({para}) => {
     <div className="testimonial-view">
       <div className="testimonial-card">
         <img src={Quote} alt="Quote" />
-        <p class="box arrow-bottom">
+        <p className="box arrow-bottom">
           {para}
         </p>
       </div>

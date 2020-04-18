@@ -1,9 +1,9 @@
 import React from "react";
 import NavBar from "../organisms/navbar/index";
-import FirstSection from "../organisms/FirstSection";
-import AboutSection from "../organisms/AboutSection";
-import Testimonial from "../organisms/Testimonial";
-import ContactSection from "../organisms/ContactSection";
+import FirstSection from "../organisms/main";
+import AboutSection from "../organisms/about";
+import Testimonial from "../organisms/testimonial";
+import ContactSection from "../organisms/contact";
 import Footer from "../molecules/footer";
 
 const Templates = () => {

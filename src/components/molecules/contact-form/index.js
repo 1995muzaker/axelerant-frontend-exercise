@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "../../atoms/form";
-import "./contact.scss";
+import "./contactform.scss";
 import Button from "../../atoms/button";
 
 const ContactForm = () => {
