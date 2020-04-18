@@ -8,7 +8,7 @@ import "./banner.scss";
 
 const backgrounStyle = {
   width: "100%",
-  height: "100vh",
+  height: "100%",
   backgroundImage: `url(${BackgroundImage})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",

@@ -3,7 +3,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0px;
+  padding: 150px 0;
+  box-sizing: border-box;
+  @media (max-width: 500px) {
+    padding: 70px 0;
+  }
   & h2 {
     margin: 0;
     color: #fff;
@@ -12,6 +16,9 @@
     font-size: 32px;
     @media (max-width: 480px) {
       padding: 0px 52px;
+    }
+    @media (max-width: 400px) {
+      padding: 0px 24px;
     }
   }
 }
