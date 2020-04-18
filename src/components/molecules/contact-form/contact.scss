@@ -1,0 +1,38 @@
+.form-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+
+  & input {
+    background: #fff;
+    height: 40px;
+    flex: 0 0 31%;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  & > div {
+    width: 100%;
+    & textarea {
+      width: 100%;
+      border-radius: 5px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+  & button {
+    background: #ee4222;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    padding: 7px 27px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+}

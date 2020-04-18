@@ -1,0 +1,32 @@
+.about-sec {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 70px 64px;
+
+  & div {
+    flex: 0 0 50%;
+  }
+
+  & .sub-div {
+    margin-top: 30px;
+  }
+
+  & h3 {
+    margin: 0;
+    text-align: left;
+    font-size: 27px;
+    color: #484340;
+    font-weight: 500;
+  }
+
+  & p {
+    color: #484340;
+    text-align: left;
+    line-height: 25px;
+  }
+
+  & img {
+    width: 100%;
+  }
+}

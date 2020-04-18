@@ -1,0 +1,19 @@
+footer {
+  background: #161513;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  flex-wrap: wrap;
+  padding: 30px 64px;
+
+  & .social-icon {
+    & p {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      & svg {
+        margin-left: 5px;
+      }
+    }
+  }
+}

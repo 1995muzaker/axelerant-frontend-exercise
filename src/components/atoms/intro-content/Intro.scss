@@ -1,0 +1,25 @@
+.intro-content-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & > div {
+    border: 1px solid #47443f;
+    border-radius: 5px;
+    padding: 50px 36px;
+    margin: 0 11px;
+
+    & img {
+      object-fit: contain;
+      height: 62px;
+    }
+
+    & p {
+      margin: 0;
+      color: #ffffff;
+      font-size: 23px;
+      text-transform: capitalize;
+      margin: 15px 0px 0px;
+    }
+  }
+}
