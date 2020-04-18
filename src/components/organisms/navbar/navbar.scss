@@ -98,9 +98,6 @@
       margin: 0px;
       margin-left: -5px;
       box-sizing: border-box;
-      a {
-        padding: 20px 0px;
-      }
     }
     p {
       margin: 0;
@@ -129,6 +126,7 @@
       flex-wrap: wrap;
       padding: 0;
       overflow: hidden;
+      margin: 0;
       max-height: 0;
       -moz-transition-duration: 0.4s;
       -webkit-transition-duration: 0.4s;
