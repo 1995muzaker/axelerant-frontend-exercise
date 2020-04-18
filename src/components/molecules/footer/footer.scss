@@ -5,6 +5,10 @@ footer {
   color: #fff;
   flex-wrap: wrap;
   padding: 30px 64px;
+  @media (max-width: 600px) {
+    padding: 30px 25px;
+    justify-content: center;
+  }
 
   & .social-icon {
     & p {

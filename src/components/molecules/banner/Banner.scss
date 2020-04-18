@@ -10,5 +10,8 @@
     margin-bottom: 30px;
     font-weight: 500;
     font-size: 32px;
+    @media (max-width: 480px) {
+      padding: 0px 52px;
+    }
   }
 }

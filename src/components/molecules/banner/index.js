@@ -10,6 +10,9 @@ const backgrounStyle = {
   width: "100%",
   height: "100%",
   backgroundImage: `url(${BackgroundImage})`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover",
+  backgroundPosition: "center",
 };
 
 const Banner = () => {

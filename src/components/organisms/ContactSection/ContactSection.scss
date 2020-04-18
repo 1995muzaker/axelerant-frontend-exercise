@@ -1,6 +1,9 @@
 .contact-div {
   padding: 70px 64px;
   box-sizing: border-box;
+  @media (max-width: 600px) {
+    padding: 50px 25px;
+  }
   & h2 {
     margin: 0;
     color: #fff;

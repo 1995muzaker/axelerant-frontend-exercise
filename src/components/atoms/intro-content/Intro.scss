@@ -2,16 +2,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
 
   & > div {
     border: 1px solid #47443f;
     border-radius: 5px;
     padding: 50px 36px;
     margin: 0 11px;
+    @media (max-width: 600px) {
+      flex: 0 0 75%;
+      margin-bottom: 21px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 20px 36px;
+    }
 
     & img {
       object-fit: contain;
       height: 62px;
+      @media (max-width: 600px) {
+        margin-right: 15px;
+      }
     }
 
     & p {

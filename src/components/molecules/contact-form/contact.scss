@@ -5,6 +5,9 @@
   width: 70%;
   margin: auto;
   flex-wrap: wrap;
+  @media (max-width: 600px) {
+    width: 95%;
+  }
 
   & input {
     background: #fff;
@@ -14,6 +17,10 @@
     border: 0;
     padding-left: 10px;
     margin-bottom: 20px;
+    box-sizing: border-box;
+    @media (max-width: 800px) {
+      flex: 0 0 100%;
+    }
   }
 
   & > div {
